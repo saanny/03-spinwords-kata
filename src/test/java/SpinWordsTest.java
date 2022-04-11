@@ -10,5 +10,7 @@ public class SpinWordsTest {
     @Test
     void spin_five_or_more_word() {
         Assertions.assertEquals("Hey wollef sroirraw",new SpinWords().spinWords("Hey fellow warriors"));
+
     }
+
 }
